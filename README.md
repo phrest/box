@@ -7,15 +7,15 @@ The box has the following:
 
 - IP: 192.163.52.71
 - Nginx
-- - http://api.project-name.dev
-- - http://xhprof.project-name.dev
+ - http://api.project-name.dev
+ - http://xhprof.project-name.dev
 - Xhprof
 - PHP 5.5
-- - Phalcon (Latest)
-- - PHPRedis 2.2.4
+ - Phalcon (Latest)
+ - PHPRedis 2.2.4
 - Xdebug (IDE Key: PHPSTORM)
 - MySQL
-- - phpMyAdmin: http://box.project-name.dev/phpmyadmin (If you have the host) or http://192.163.52.71/phpmyadmin
+ - phpMyAdmin: http://box.project-name.dev/phpmyadmin (If you have the host) or http://192.163.52.71/phpmyadmin
 - Redis (Port: 6379)
 
 Installation
