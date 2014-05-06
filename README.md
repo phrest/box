@@ -9,9 +9,10 @@ The box has the following:
 - Nginx
 -- http://api.project-name.dev
 -- http://xhprof.project-name.dev
-- Phalcon
 - Xhprof
 - PHP 5.5
+-- Phalcon (Latest)
+-- PHPRedis 2.2.4
 - Xdebug (IDE Key: PHPSTORM)
 - MySQL
 -- phpMyAdmin: http://box.project-name.dev/phpmyadmin (If you have the host) or http://192.163.52.71/phpmyadmin
