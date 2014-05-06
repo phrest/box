@@ -22,8 +22,8 @@ Installation
 ------------
 
 - Clone the repo
--- Feel free to edit the configuration at: https://puphpet.com/
+ - Feel free to edit the configuration at: https://puphpet.com/
 - Add the relevant hosts to your machines hosts file
--- 192.163.52.71 box.project-name.dev api.project-name.dev xhprof.project-name.dev
+ - 192.163.52.71 box.project-name.dev api.project-name.dev xhprof.project-name.dev
 - cd into the repo directory
 - Run vagrant up
