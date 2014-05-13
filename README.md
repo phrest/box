@@ -1,10 +1,12 @@
-Phalcon API Box
+PhREST API Box
 ===============
 
-Vagrant Box, ready to host your API project. You can edit this box @ https://puphpet.com/
+Vagrant Box, ready to host your Phalcon REST API project.
+You can edit this box @ https://puphpet.com/
 
 The box has the following:
 
+- PhREST: https://github.com/phrest/api
 - IP: 192.163.52.71
 - Nginx
  - http://api.project-name.dev
