@@ -9,15 +9,15 @@ The box has the following:
 - PhREST: https://github.com/phrest/api
 - IP: 192.163.52.71
 - Nginx
- - http://api.project-name.dev
- - http://xhprof.project-name.dev
+ - http://api.phrest.dev
+ - http://xhprof.phrest.dev
 - Xhprof
 - PHP 5.5
  - Phalcon (Latest)
  - PHPRedis 2.2.4
 - Xdebug (IDE Key: PHPSTORM)
 - MySQL
- - phpMyAdmin: http://box.project-name.dev/phpmyadmin (If you have the host) or http://192.163.52.71/phpmyadmin
+ - phpMyAdmin: http://box.phrest.dev/phpmyadmin (If you have the host) or http://192.163.52.71/phpmyadmin
 - Redis (Port: 6379)
 
 Installation
@@ -25,7 +25,6 @@ Installation
 
 - Clone the repo
  - Feel free to edit the configuration at: https://puphpet.com/
-- Add the relevant hosts to your machines hosts file
- - 192.163.52.71 box.project-name.dev api.project-name.dev xhprof.project-name.dev
+- Add the relevant hosts to your machines hosts file, see "hosts" file
 - cd into the repo directory
 - Run vagrant up

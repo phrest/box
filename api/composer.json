@@ -1,0 +1,23 @@
+{
+  "name":        "phrest/skeleton",
+  "type":        "library",
+  "description": "REST API Skeleton Project for Phalcon PHP",
+  "keywords":    ["phalcon", "rest", "api", "api first", "apigee", "skeleton", "example", "project"],
+  "homepage":    "https://github.com/phrest/skeleton",
+  "license":     "MIT",
+  "authors":     [
+    {
+      "name":     "Phrest",
+      "homepage": "https://github.com/phrest"
+    }
+  ],
+  "autoload":    {
+    "psr-4": {
+      "PhrestSkeleton\\": "src/"
+    }
+  },
+  "require":     {
+    "phrest/api": "dev-master",
+    "phrest/sdk": "dev-master"
+  }
+}
