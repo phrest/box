@@ -23,9 +23,9 @@ vagrantfile-local:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            M69Iz9t8Qs6O:
-                source: ~/code/github/phrest/skeleton
-                target: /var/www/skeleton
+            MSWV9yhtN3Sr:
+                source: ./api
+                target: /var/www/api
                 nfs: 'false'
         usable_port_range: 2200..2250
     ssh:
@@ -68,7 +68,7 @@ apache:
         - php
         - rewrite
     vhosts:
-        KSeFcMVopLHm:
+        AaRfEagd3rji:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -88,15 +88,15 @@ apache:
 nginx:
     install: '1'
     vhosts:
-        ocb2fomRvNk4:
-            server_name: skeleton.phrest.dev
-            www_root: /var/www/skeleton/public
+        gUzrwxfiG54B:
+            server_name: api.phrest.dev
+            www_root: /var/www/api/public
             listen_port: '80'
             index_files:
                 - index.php
             envvars:
                 - 'ENV development'
-        byMLOGPv5MRu:
+        egOI5s7xZ7T8:
             server_name: xhprof.phrest.dev
             www_root: /var/www/xhprof/xhprof_html
             listen_port: '80'
@@ -111,9 +111,9 @@ php:
     modules:
         php:
             - cli
+            - curl
             - intl
             - mcrypt
-            - curl
         pear: {  }
         pecl:
             - pecl_http
@@ -144,7 +144,7 @@ mysql:
     phpmyadmin: '1'
     adminer: 0
     databases:
-        1qfEfpD2r8zG:
+        5QiQXMVaTfxm:
             grant:
                 - ALL
             name: skeleton

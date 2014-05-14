@@ -2,15 +2,20 @@
 
 sudo su
 
-echo "Installing Phalcon"
+PHALCON_VERSION="1.3.1"
 
-sudo apt-get install php5-dev gcc
+echo "Installing Phalcon $PHALCON_VERSION"
 
-git clone --depth=1 git://github.com/phalcon/cphalcon.git
-cd cphalcon/build
+sudo apt-get install php5-dev
+
+wget https://github.com/phalcon/cphalcon/archive/phalcon-v1.3.1.zip
+unzip -q phalcon-v$PHALCON_VERSION.zip -d phalcon
+cd phalcon/cphalcon-phalcon-v$PHALCON_VERSION/build
 ./install
-cd ../../
-rm -rf cphalcon
+cd ../../../
+rm -rf phalcon
+rm phalcon-v$PHALCON_VERSION.zip
+
 
 echo 'extension=phalcon.so' > /etc/php5/mods-available/phalcon.ini
 

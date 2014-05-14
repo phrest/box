@@ -1,4 +1,8 @@
-# Skeleton project
+# REST API
+192.163.52.71 api.phrest.dev
+
+# Box: http://box.phrest.dev/phpmyadmin
 192.163.52.71 box.phrest.dev
-192.163.52.71 skeleton.phrest.dev
+
+# XHProf Profiler
 192.163.52.71 xhprof.phrest.dev
